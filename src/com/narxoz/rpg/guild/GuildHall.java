@@ -38,7 +38,8 @@ public class GuildHall implements GuildMediator {
             }
         }
         notificationsSent += notified;
-        System.out.println("[GuildHall] Dispatched '" + topic + "' from " + from.getName() + " to " + notified + " members. Payload: " + payload);
+        System.out.println("[GuildHall] Dispatched '" + topic + "' from " + from.getName()
+                + " to " + notified + " members.");
     }
 
     public int getNotificationsSent() {
